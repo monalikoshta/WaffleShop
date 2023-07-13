@@ -1,0 +1,33 @@
+{
+    "products": [
+      {
+        "title": "Honey Strawberry",
+        "link": "assets/eve-lyn-D0YyJR7vw0g-unsplash.jpg",
+        "id": "1",
+        "body": "Classic waffle served with Honey and topped with strawberries",
+        "price": 120
+      },
+      {
+        "title": "Bubbly Wubbly",
+        "link": "assets/chris-panas-DhagwCXvyWw-unsplash.jpg",
+        "id": "2",
+        "body": "Bubble shaped waffle, served with icecream and strawberries",
+        "price": 150
+      },
+      {
+        "title": "Butter Delight",
+        "link": "assets/marikea-schwan-oS5iUTHyGJs-unsplash.jpg",
+        "id": "3",
+        "body": "The butteriest waffle of all,served in its raw flavour",
+        "price": 100
+      },
+      {
+        "title": "Chocolicious",
+        "link": "assets/otto-norin-zuLYIQ-4ADQ-unsplash.jpg",
+        "id": "4",
+        "body": "Jumbo chocolate waffle icecream sandwich",
+        "price": 250
+      }
+    ]
+  }
+  
