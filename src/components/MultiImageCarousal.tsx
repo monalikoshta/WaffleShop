@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import ProductCard from "./ProductCard";
+import products from "../data/products.json";
 
 export interface ImageCarousal {
   title: string;
@@ -10,21 +11,23 @@ export interface ImageCarousal {
 }
 
 const MultiImageCarousal = () => {
-  var [resources, setResources] = useState([]);
-  const url = "/data/products.json";
-  const fetchInfo = () => {
-    return fetch(url)
-      .then((res) => {
-        return res.json();
-      })
-      .then((data) => {
-        // console.log("data", data);
-        setResources(data.products);
-      });
-  };
-  useEffect(() => {
-    fetchInfo();
-  }, []);
+  // var [resources, setResources] = useState([]);
+  // const url = "/data/products.json";
+  // const fetchInfo = () => {
+  //   return fetch(url)
+  //     .then((res) => {
+  //       return res.json();
+  //     })
+  //     .then((data) => {
+  //       // console.log("data", data);
+  //       setResources(data.products);
+  //     });
+  // };
+  // useEffect(() => {
+  //   fetchInfo();
+  // }, []);
+
+  const resources = products.products;
 
   return (
     <div>
